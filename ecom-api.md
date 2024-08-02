@@ -10,10 +10,10 @@
 
 ```
 {
-  "first_name": "John",
-  "last_name": "Doe",
+  "firstName": "John",
+  "lastName": "Doe",
   "address": "123 Main St, Springfield, USA",
-  "birth_date": "1990-01-01",
+  "birthDate": "1990-01-01",
   "email": "john.doe@example.com",
   "phone": "+1234567890",
   "password": "securePassword123"
@@ -65,10 +65,10 @@
 
 ```
 {
-  "first_name": "Jane",
-  "last_name": "Doe",
+  "firstName": "Jane",
+  "lastName": "Doe",
   "address": "456 Elm St, Springfield, USA",
-  "birth_date": "1985-05-15",
+  "birthDate": "1985-05-15",
   "email": "jane.doe@example.com",
   "phone": "+1987654321",
   "password": "newSecurePassword456"
@@ -193,8 +193,8 @@
 
 ```
 {
-  "user_id": "1",
-  "date_time": "2024-08-01T14:30:00Z",
+  "userId": "1",
+  "dateTime": "2024-08-01T14:30:00Z",
   "comments": "Please deliver between 9 AM and 5 PM.",
   "status": 1,
   "address": "789 Maple Ave, Springfield, USA"
@@ -229,8 +229,8 @@
 
 ```
 {
-  "user_id": "1",
-  "date_time": "2024-08-02T10:00:00Z",
+  "userId": "1",
+  "dateTime": "2024-08-02T10:00:00Z",
   "comments": "Leave package at the front door.",
   "status": 2,
   "address": "101 Pine St, Springfield, USA"
@@ -259,7 +259,7 @@
 
 ```
 {
-  "user_id": "1",
+  "userId": "1",
   "name": "Holiday Gifts"
 }
 ```
@@ -318,10 +318,10 @@
 
 ```
 {
-  "user_id": "1",
+  "userId": "1",
   "products": [
-    {"product_id": "101", "quantity": 2},
-    {"product_id": "102", "quantity": 1}
+    {"productId": "101", "quantity": 2},
+    {"productId": "102", "quantity": 1}
   ]
 }
 ```
@@ -356,7 +356,7 @@
 
 ```
 {
-  "order_id": "5001",
+  "orderId": "5001",
   "method": 1,  // 0 for Cash, 1 for Credit Card, etc.
   "amount": 249.99
 }
@@ -392,7 +392,7 @@
 
 ```
 {
-  "product_id": "101",
+  "productId": "101",
   "review": "Great sound quality and battery life.",
   "rating": 5,
   "images": ["review1.jpg", "review2.jpg"]
