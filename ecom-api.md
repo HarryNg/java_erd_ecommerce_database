@@ -112,7 +112,7 @@
   "color": "Black",
   "meta": "Electronics, Audio",
   "rating": 4.5,
-  "quantity": 100
+  "stock": 100
 }
 ```
 
@@ -151,7 +151,7 @@
   "color": "Blue",
   "meta": "Electronics, Audio",
   "rating": 4.7,
-  "quantity": 50
+  "stock": 50
 }
 ```
 
@@ -165,17 +165,17 @@
 
 ---
 
-### Patch Product Quantity
+### Patch Product Stock
 
 - **Method:** PATCH
 - **Endpoint:** `/products/:id`
-- **Description:** Updates the quantity of an existing product.
+- **Description:** Updates the stock of an existing product.
 
 **Request Body:**
 
 ```
 {
-  "quantity": 120
+  "stock": 120
 }
 ```
 
@@ -320,8 +320,8 @@
 {
   "userId": "1",
   "products": [
-    {"productId": "101", "quantity": 2},
-    {"productId": "102", "quantity": 1}
+    {"productId": "101", "stock": 2},
+    {"productId": "102", "stock": 1}
   ]
 }
 ```
