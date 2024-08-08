@@ -320,8 +320,8 @@
 {
   "userId": "1",
   "products": [
-    {"productId": "101", "stock": 2},
-    {"productId": "102", "stock": 1}
+    {"productId": "101", "quantity": 2},
+    {"productId": "102", "quantity": 1}
   ]
 }
 ```
